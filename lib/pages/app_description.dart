@@ -1,3 +1,4 @@
+import 'package:english_xii_notes/constants/fonts.dart';
 import 'package:flutter/material.dart';
 
 class AppPageDescription extends StatelessWidget {
@@ -6,7 +7,10 @@ class AppPageDescription extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.deepPurpleAccent,
-        title: Text("About"),
+        title: Text(
+          "About",
+          style: appbarTextStyle,
+        ),
       ),
       body: SingleChildScrollView(
         child: Container(

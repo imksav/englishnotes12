@@ -16,8 +16,10 @@ class AppDescription extends StatelessWidget {
         IconButton(
             icon: Icon(Icons.description),
             onPressed: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => AppDescription()));
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => AppPageDescription()));
             }),
         SizedBox(width: 20.0),
       ],

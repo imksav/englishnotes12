@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+final appbarTextStyle =
+    TextStyle(fontSize: 20.0, color: Colors.white, fontFamily: "Poppins");
 final mainTitleTextStyle =
     TextStyle(fontSize: 18.0, color: Colors.black, fontFamily: "Poppins");
 final titleTextStyle =
