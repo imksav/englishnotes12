@@ -23,6 +23,7 @@ flutter:
 
   assets:
     - assets/
+    - assets/chapter_logo/
 
   fonts:
     - family: Schyler
