@@ -1,4 +1,5 @@
 import 'package:english_xii_notes/constants/fonts.dart';
+import 'package:english_xii_notes/pages/CompleteList.dart';
 import 'package:english_xii_notes/widgets/app_description.dart';
 import 'package:english_xii_notes/widgets/tableOfContents.dart';
 import 'package:flutter/material.dart';
@@ -30,7 +31,7 @@ class HomePage extends StatelessWidget {
       body: SingleChildScrollView(
         child: Container(
           margin: EdgeInsets.all(16.0),
-          child: TableOfContents(),
+          child: CompleteListOfChapters(),
         ),
       ),
     );
