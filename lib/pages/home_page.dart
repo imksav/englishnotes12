@@ -1,4 +1,5 @@
 import 'package:english_xii_notes/constants/fonts.dart';
+import 'package:english_xii_notes/modules/common/display.dart';
 import 'package:english_xii_notes/modules/listOfChapters/displayChaptersLists.dart';
 import 'package:english_xii_notes/pages/app_description.dart';
 import 'package:english_xii_notes/widgets/app_description.dart';
@@ -26,7 +27,7 @@ class _HomePageState extends State<HomePage> {
       ),
       body: Container(
         margin: EdgeInsets.all(8.0),
-        child: DisplayChaptersList(),
+        child: DisplayScreen(),
       ),
     );
   }
