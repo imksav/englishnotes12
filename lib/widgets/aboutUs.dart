@@ -1,8 +1,7 @@
-import 'package:english_xii_notes/pages/app_description.dart';
 import 'package:flutter/material.dart';
 
-class AppDescription extends StatelessWidget {
-  const AppDescription({
+class AboutUs extends StatelessWidget {
+  const AboutUs({
     Key key,
   }) : super(key: key);
 
@@ -16,10 +15,7 @@ class AppDescription extends StatelessWidget {
         IconButton(
             icon: Icon(Icons.description),
             onPressed: () {
-              Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                      builder: (context) => AppPageDescription()));
+              Navigator.of(context).pushNamed('/appDescription');
             }),
         SizedBox(width: 20.0),
       ],

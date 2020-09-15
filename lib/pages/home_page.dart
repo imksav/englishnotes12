@@ -1,8 +1,6 @@
 import 'package:english_xii_notes/constants/fonts.dart';
-import 'package:english_xii_notes/modules/common/display.dart';
-import 'package:english_xii_notes/modules/listOfChapters/displayChaptersLists.dart';
-import 'package:english_xii_notes/pages/app_description.dart';
-import 'package:english_xii_notes/widgets/app_description.dart';
+import 'package:english_xii_notes/pages/lisOfChapters.dart';
+import 'package:english_xii_notes/widgets/aboutUs.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
@@ -22,12 +20,12 @@ class _HomePageState extends State<HomePage> {
         centerTitle: true,
         backgroundColor: Colors.deepPurpleAccent,
         actions: [
-          AppDescription(),
+          AboutUs(),
         ],
       ),
       body: Container(
         margin: EdgeInsets.all(8.0),
-        child: DisplayScreen(),
+        child: ListOfChapters(),
       ),
     );
   }
